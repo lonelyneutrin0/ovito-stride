@@ -83,7 +83,7 @@ jobs:
           pip install .[dev]
       - name: Build pdoc documentation
         run: >-
-          pdoc -d google ovito-stride/ -o _build/ --math 
+          pdoc -d google ovito_stride/ -o _build/ --math 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
