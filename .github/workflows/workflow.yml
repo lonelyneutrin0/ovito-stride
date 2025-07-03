@@ -31,10 +31,10 @@ jobs:
           pip install .[dev]
       - name: Lint with ruff
         run: >-
-          ruff check ovito-stride/
+          ruff check ovito_stride/
       - name: Type check with mypy
         run: >-
-          mypy ovito-stride/
+          mypy ovito_stride/
 
   build:
     if: github.event_name == 'release'
