@@ -40,9 +40,9 @@ dev = [
 ]
 
 [tool.hatch.version]
-path = "ovito-stride/__init__.py"
+path = "ovito_stride/__init__.py"
 
 [tool.hatch.build.targets.sdist]
 include = [
-    "/ovito-stride",
+    "/ovito_stride",
 ]
